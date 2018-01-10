@@ -1,0 +1,45 @@
+.bg-auth {
+  background: url('/images/bg_auth.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-wrapper {
+  padding: 10px;
+}
+
+.back-link {
+  float: left;
+  width: 100%;
+  margin: 10px;
+}
+
+.container-center {
+  max-width: 400px;
+  margin: 50px auto 0;
+  padding: 20px;
+}
+
+.container-center.lg {
+  max-width: 800px;
+}
+
+.view-header {
+  margin: 10px 0;
+}
+
+.view-header .header-icon {
+  font-size: 60px;
+  color: #37a000;
+  width: 68px;
+  float: left;
+  margin-top: -8px;
+  line-height: 0;
+}
+
+.view-header .header-title {
+  margin-left: 68px;
+}
+
+.view-header .header-title h3 {
+  margin-bottom: 2px;
+}

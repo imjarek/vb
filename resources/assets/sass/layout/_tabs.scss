@@ -1,0 +1,127 @@
+.nav-tabs {
+  border-bottom: 0;
+}
+
+.nav-tabs>li>a {
+  color: #7a7a7a;
+  font-weight: 600;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border: 1px solid #e4e5e7;
+  color: #37a000;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: transparent;
+  color: #37a000;
+  border-color: transparent;
+}
+
+.tab-content .panel-body {
+  background: #fff;
+  border: 1px solid #e4e5e7;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+}
+
+
+/*!
+ * bootstrap-vertical-tabs - v1.2.2
+ * https://dbtek.github.io/bootstrap-vertical-tabs
+ * 2016-12-02
+ * Copyright (c) 2016 İsmail Demirbilek
+ * License: MIT
+ */
+
+.tabs-left>li,
+.tabs-right>li {
+  float: none;
+}
+
+.tabs-left>li {
+  margin-right: -1px;
+}
+
+.tabs-right>li {
+  margin-left: -1px;
+}
+
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  border-bottom-color: #e4e5e7;
+  border-right-color: transparent;
+}
+
+.tabs-right>li.active>a,
+.tabs-right>li.active>a:hover,
+.tabs-right>li.active>a:focus {
+  border-bottom: 1px solid #e4e5e7;
+  border-left-color: transparent;
+}
+
+.tabs-left>li>a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display: block;
+}
+
+.tabs-right>li>a {
+  border-radius: 0 4px 4px 0;
+  margin-right: 0;
+}
+
+.sideways {
+  margin-top: 50px;
+  border: none;
+  position: relative;
+}
+
+.sideways>li {
+  height: 20px;
+  width: 120px;
+  margin-bottom: 100px;
+}
+
+.sideways>li>a {
+  border-right-color: transparent;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.sideways>li.active>a,
+.sideways>li.active>a:hover,
+.sideways>li.active>a:focus {
+  border-bottom-color: transparent;
+  border-right-color: #e4e5e7;
+  border-left-color: #e4e5e7;
+}
+
+.sideways.tabs-left {
+  left: -50px;
+}
+
+.sideways.tabs-right {
+  right: 27px;
+}
+
+.sideways.tabs-right>li {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.sideways.tabs-left>li {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+@media (max-width: 767px) {
+  .sideways.tabs-left {
+    left: -44px;
+  }
+}

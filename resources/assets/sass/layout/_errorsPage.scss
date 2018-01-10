@@ -1,0 +1,147 @@
+/*404 page & 405 page
+==============================================================================*/
+
+.middle-box,
+.middle-box2 {
+  max-width: 768px;
+  z-index: 100;
+  margin: 0 auto;
+  padding: 40px 15px 15px 15px;
+}
+
+.error-text h3 span {
+  font-weight: 400;
+}
+
+.error-desc {
+  text-align: left;
+}
+
+.error-desc p {
+  font-family: $font2, sans-serif;
+}
+
+.error-desc .navbar-form {
+  margin-top: 30px;
+}
+
+.error-desc .navbar-form .form-control {
+  border: 1px solid #37a000;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@media (max-width: 767px) {
+  .error-text h1 {
+    font-size: 115px;
+    font-weight: 800;
+    margin-bottom: 0;
+    text-align: center
+  }
+  .error-text h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .error-desc {
+    text-align: center;
+    p {
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .error-text h1 {
+    font-size: 260px;
+    font-weight: 800;
+    float: left;
+  }
+  .error-text h3 {
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 19px;
+    font-weight: 300;
+    float: left;
+    margin-top: 140px;
+  }
+  .error-desc p {
+    font-size: 18px;
+  }
+  .arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+  }
+  .bounce {
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  .error-desc .navbar-form {
+    padding: 0;
+  }
+}
+
+
+/*--- 505 page ---*/
+
+.error-text2 h1 {
+  font-size: 280px;
+  font-weight: 800;
+}
+
+.error-desc2 p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .error-text2 h1 {
+    font-size: 115px;
+  }
+  .error-desc2 p {
+    font-size: 14px;
+  }
+}

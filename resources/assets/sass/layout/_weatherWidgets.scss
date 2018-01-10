@@ -1,0 +1,131 @@
+.wdgt-row,
+.prd-img {
+  position: relative;
+}
+
+.wdgt-row {
+  text-align: center !important;
+}
+
+.wdgt-row img {
+  width: 100%;
+}
+
+.wdt-head {
+  font-size: 19px;
+  font-weight: 700;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.country-select {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.styled {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.today-status {
+  margin-top: 30px;
+}
+
+.weather-full-info {
+  color: #cbcbcb;
+}
+
+.weather-full-info h1 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 0 15px 0;
+  color: #374767;
+}
+
+.weather-full-info .today-status i {
+  font-size: 70px;
+  color: #45c203;
+}
+
+.weather-full-info .degree {
+  font-size: 25px;
+  font-weight: 600;
+  display: inline-block;
+  position: absolute;
+}
+
+.weather-full-info .degree:after {
+  content: "o";
+  position: relative;
+  top: -12px;
+  font-size: 16px;
+}
+
+.weather-full-info ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.weather-full-info ul li {
+  display: inline-block;
+  width: 31.1%;
+  text-align: center;
+  border: 1px solid #f1f2f7;
+  margin: 2px;
+  padding: 5px;
+  float: left;
+}
+
+.weather-full-info h2 {
+  font-size: 12px;
+  margin: 0 0 10px 0;
+}
+
+.weather-full-info ul li i {
+  font-size: 25px;
+}
+
+.weather-full-info .statistics {
+  padding-top: 5px;
+}
+
+.weather-full-info .statistics:after {
+  content: "o";
+  position: relative;
+  top: -5px;
+  font-size: 10px;
+}
+
+@media (max-width: 767px) {
+  .today-status {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .weather-full-info ul {
+    padding: 0;
+  }
+  .weather-full-info ul li {
+    width: 31.55%;
+    margin-bottom: 2px;
+  }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+  .today-status {
+    padding-left: 15px !important;
+  }
+  .weather-full-info {
+    margin-top: 15px !important;
+  }
+  .weather-full-info ul li {
+    width: 31.8%;
+  }
+}

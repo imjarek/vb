@@ -1,0 +1,12 @@
+.content {
+  min-height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 30px 10px;
+}
+
+@media (max-width: 767px) {
+  .content {
+    padding: 0 15px 10px;
+  }
+}

@@ -1,0 +1,30 @@
+/*--- flot chart ---*/
+
+.flotChart {
+  display: block;
+  height: 300px;
+  position: relative;
+  color: #545454;
+}
+
+.flotChart-demo {
+  width: 100%;
+  height: 100%;
+  color: #545454;
+}
+
+
+/*--- Sparklines chart ---*/
+
+.spark_about {
+  margin: 10px 0 40px;
+}
+
+.jqstooltip {
+  width: auto !important;
+  height: auto !important;
+  background-color: #2c3136 !important;
+  border-radius: 10px;
+  border: none !important;
+  color: #fff !important;
+}

@@ -1,0 +1,27 @@
+#calendar {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#external-events h4 {
+  margin-top: 0;
+}
+
+#external-events .fc-event {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#external-events p {
+  margin: 1.5em 0 0;
+  font-size: 13px;
+}
+
+#external-events p input {
+  margin: 0;
+  vertical-align: middle;
+}
+
+#external-events p label {
+  font-weight: 600;
+}

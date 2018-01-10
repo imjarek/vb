@@ -1,0 +1,57 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: $font2, sans-serif;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* General Links */
+
+a {
+  color: #37a000;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+  color: #72afd2;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+hr {
+  border-top: 1px solid #e1e6ef;
+}
+
+/*** Typography page
+==============================================================================*/
+
+.headding_ex h1,
+.headding_ex h2,
+.headding_ex h3,
+.headding_ex h4,
+.headding_ex h5,
+.headding_ex h6 {
+  margin: 0;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

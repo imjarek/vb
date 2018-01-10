@@ -1,0 +1,29 @@
+#toTop {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+}
+
+.back-top {
+    background-color: #45c203;
+    border: 1px solid #45c203;
+    padding: 7px 9px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50% !important;
+    color: #fff;
+    &:hover {
+        color: #fff;
+        background-color: #2c3136;
+        border: 1px solid #2c3136;
+    }
+}
+
+@media (min-width: 768px) {
+    #toTop {
+        right: 30px;
+    }
+}

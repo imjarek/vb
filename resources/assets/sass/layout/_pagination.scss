@@ -1,0 +1,32 @@
+.pagination {
+    border-radius: 0;
+    & > li {
+        &.active > a {
+            background-color: #37A000;
+            border-color: #37A000;
+            &:hover,
+            &:focus {
+                background-color: #37A000;
+                border-color: #37A000;
+            }
+        }
+        & > a {
+            border-color: #CCCCCC;
+            color: #333333;
+
+            &:first-child,
+            &:last-child {
+                border-radius: 0;
+            }
+
+            &:hover,
+            &:focus {
+                border-color: #ADADAD;
+            }
+
+            & > i {
+                margin: 0 -3px;
+            }
+        }
+    }
+}

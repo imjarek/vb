@@ -1,0 +1,42 @@
+.user-widget {
+  border: 1px solid #e1e6ef;
+  border-radius: 4px;
+}
+
+.user-widget .list-group-item {
+  border: 0;
+  color: #474751;
+  padding: 15px;
+}
+
+.user-widget a.list-group-item:hover {
+  background-color: #F8F3F0;
+  color: #64584C;
+}
+
+.user-widget a.list-group-item:hover i.fa {
+  color: #E35935;
+}
+
+.user-widget .heading {
+  background-color: #474751;
+  padding: 25px 15px;
+}
+
+.user-widget .heading .text-wrap {
+  padding: 20px 0;
+}
+
+.user-widget .img-circle {
+  height: 90px;
+  width: 90px;
+  padding: 8px;
+  border: 1px solid #a6a6a6;
+  margin-right: 10px;
+  float: left;
+}
+
+.user-widget .heading .list-group-item-heading {
+  font-weight: 600;
+  color: #fff;
+}

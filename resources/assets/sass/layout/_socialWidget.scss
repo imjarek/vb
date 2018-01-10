@@ -1,0 +1,75 @@
+.social-widget {
+  overflow: hidden;
+  background: #FFF;
+  border: 1px #e8e8e8 solid;
+  clear: both;
+}
+
+.social-widget ul {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -1px;
+  position: relative;
+  list-style: none;
+}
+
+.social-widget ul li {
+  margin: 0;
+  padding: 0;
+  line-height: 15px;
+  display: inline-block;
+  float: left;
+  width: 50%;
+  border: 1px solid #e8e8e8;
+  border-width: 0 0 1px 0;
+}
+
+.social-widget ul li:nth-child(2n+1) {
+  border-width: 0 1px 1px 0;
+}
+
+.social-widget ul li i {
+  font-size: 80px;
+}
+
+.social-widget ul li:hover i {
+  text-shadow: 0 5px 0 #212121;
+}
+
+.fb_inner {
+  background-color: #3e5b98;
+  padding: 15px;
+  color: #fff;
+}
+
+.twitter_inner {
+  background-color: #4da7de;
+  padding: 15px;
+  color: #fff;
+}
+
+.g_plus_inner {
+  background-color: #dd4b39;
+  padding: 15px;
+  color: #fff;
+}
+
+.dribble_inner {
+  background-color: #e84d88;
+  padding: 15px;
+  color: #fff;
+}
+
+.social-widget ul li .sc-num {
+  display: block;
+  font-size: 19px;
+  padding: 10px 0;
+}
+
+.social-widget ul li li small {
+  font-size: 85%;
+  color: #c9c9c9;
+}

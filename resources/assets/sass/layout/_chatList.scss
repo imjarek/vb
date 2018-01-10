@@ -1,0 +1,101 @@
+.chat_list {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.chat_list li {
+  margin-bottom: 24px;
+}
+
+.chat_list .chat-avatar {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 40px;
+}
+
+.chat_list .chat-avatar img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.chat_list .chat-avatar i {
+  font-size: 12px;
+  font-style: normal;
+}
+
+.chat_list .conversation-text {
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  margin-left: 12px;
+  width: 70%;
+}
+
+.chat_list .ctext-wrap {
+  background: rgba(0, 0, 0, .1);
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.chat_list .ctext-wrap:after {
+  right: 100%;
+  top: 20%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(213, 242, 239, 0);
+  border-right-color: rgba(0, 0, 0, .1);
+  border-width: 5px;
+  margin-top: -5px;
+}
+
+.chat_list .ctext-wrap i {
+  color: rgba(54, 58, 92, .9);
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+}
+
+.chat_list .ctext-wrap p {
+  margin: 0px;
+  padding-top: 3px;
+  font-weight: 500;
+}
+
+.chat_list .odd .chat-avatar {
+  float: right !important;
+}
+
+.chat_list .odd .conversation-text {
+  float: right !important;
+  margin-right: 12px;
+  text-align: right;
+  width: 70% !important;
+}
+
+.chat_list .odd .ctext-wrap {
+  background: #37a000 !important;
+}
+
+.chat_list .odd .ctext-wrap i {
+  color: #fff;
+}
+
+.chat_list .odd .ctext-wrap p {
+  color: #fff;
+}
+
+.chat_list .odd .ctext-wrap:after {
+  border-color: rgba(238, 238, 242, 0) !important;
+  border-left-color: #37a000 !important;
+  left: 100% !important;
+  top: 20% !important;
+}

@@ -1,0 +1,136 @@
+.twt-feed {
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  color: #FFFFFF;
+  padding: 40px 10px 10px;
+  position: relative;
+  min-height: 170px;
+}
+
+.twt-feed.blue-bg {
+  background: #45c203;
+}
+
+.corner-ribon {
+  text-align: center;
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+}
+
+.black-ribon {
+  background: url("/images/layout/twitter_corner_black.png") no-repeat;
+}
+
+.corner-ribon i {
+  padding: 10px 0 0 35px;
+  color: #fff;
+}
+
+.twt-feed .wtt-mark {
+  color: rgba(255, 255, 255, 0.15);
+  font-size: 160px;
+  position: absolute;
+  top: 10px;
+  left: 40%;
+}
+
+.twt-feed a {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  float: left;
+  margin: 0 10px;
+}
+
+.twt-feed a img {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.twt-feed h1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.twt-feed p {
+  color: #fff;
+}
+
+.twt-category {
+  display: inline-block;
+  margin-bottom: 11px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px 10px;
+  color: #74829C;
+}
+
+.twt-category ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.twt-category ul li {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.twt-category ul li.tweets-color {
+  background-color: #58C9F3;
+}
+
+.twt-category ul li.following-color {
+  background-color: #FFB61E;
+}
+
+.twt-category ul li.followers-color {
+  background-color: #E5343D;
+}
+
+.twt-category h5 {
+  font-size: 18px;
+  font-weight: 400 !important;
+}
+
+.twt-category ul li h5 {
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.twt-write .t-text-area {
+  background: #f4f4f6;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border: none;
+  height: 40px;
+  color: #c9c9c9;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.twt-footer {
+  padding: 12px 15px;
+}
+
+.twt-footer,
+.twt-footer a {
+  color: #d2d2d2;
+}
+
+.twt-footer i {
+  padding-right: 10px;
+}

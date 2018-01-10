@@ -1,0 +1,18 @@
+html,
+body {
+  min-height: 100%;
+  min-width: $widthBody;
+}
+
+.layout-boxed html,
+.layout-boxed body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: #374767;
+  background-color: #f1f3f6;
+  font-family: $font1, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

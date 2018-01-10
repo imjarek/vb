@@ -1,0 +1,82 @@
+.label {
+  padding-bottom: 0.2em;
+  &.p-b-0 {
+    padding-bottom: 0;
+  }
+}
+
+.label-pill {
+  border-radius: 5em;
+}
+
+.label-default-outline {
+  color: #777777;
+  background-color: transparent;
+  border: 2px solid #ced0d2;
+}
+
+.label-default {
+  color: white;
+  background-color: #ced0d2;
+  border: 2px solid #ced0d2;
+}
+
+.label-primary-outline {
+  color: #3a95e4;
+  background-color: transparent;
+  border: 2px solid #3a95e4;
+}
+
+.label-primary {
+  color: white;
+  background-color: #3a95e4;
+  border: 2px solid #3a95e4;
+}
+
+.label-success-outline {
+  color: #45c203;
+  background-color: transparent;
+  border: 2px solid #45c203;
+}
+
+.label-success {
+  color: white;
+  background-color: #45c203;
+  border: 2px solid #45c203;
+}
+
+.label-info-outline {
+  color: #53d4fa;
+  background-color: transparent;
+  border: 2px solid #53d4fa;
+}
+
+.label-info {
+  color: white;
+  background-color: #53d4fa;
+  border: 2px solid #53d4fa;
+}
+
+.label-warning-outline {
+  color: #ffc751;
+  background-color: transparent;
+  border: 2px solid #ffc751;
+}
+
+.label-warning {
+  color: white;
+  background-color: #ffc751;
+  border: 2px solid #ffc751;
+}
+
+.label-danger-outline {
+  color: #E5343D;
+  background-color: transparent;
+  border: 2px solid #E5343D;
+}
+
+.label-danger {
+  color: white;
+  background-color: #E5343D;
+  border: 2px solid #E5343D;
+}
